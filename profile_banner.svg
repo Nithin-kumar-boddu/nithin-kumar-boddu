@@ -1,0 +1,42 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0616"/>
+      <stop offset="0.48" stop-color="#10142B"/>
+      <stop offset="1" stop-color="#062B35"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="40" x2="1040" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="0.52" stop-color="#4F8CFF"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1030" cy="55" r="120" fill="#22D3EE" opacity="0.07"/>
+  <circle cx="240" cy="310" r="170" fill="#8B5CF6" opacity="0.06"/>
+  <path d="M0 290C220 215 360 360 600 276C820 200 940 330 1200 205" stroke="url(#accent)" stroke-width="2" opacity="0.4"/>
+  <path d="M0 310C220 235 365 376 600 296C825 218 950 348 1200 230" stroke="url(#accent)" stroke-width="7" opacity="0.08" filter="url(#glow)"/>
+  <g opacity="0.65">
+    <circle cx="930" cy="150" r="3" fill="#22D3EE"/>
+    <circle cx="970" cy="184" r="2" fill="#8B5CF6"/>
+    <circle cx="1012" cy="126" r="2" fill="#4F8CFF"/>
+    <circle cx="1080" cy="204" r="3" fill="#22D3EE"/>
+    <circle cx="1140" cy="148" r="2" fill="#8B5CF6"/>
+  </g>
+  <rect x="70" y="62" width="6" height="200" rx="3" fill="url(#accent)"/>
+  <text x="108" y="130" fill="#A5B4FC" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="5">AI PRODUCT ENGINEER</text>
+  <text x="108" y="194" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800">Nithin Kumar</text>
+  <text x="108" y="235" fill="#D7E0EE" font-family="Arial, Helvetica, sans-serif" font-size="21">Products • Backend Systems • AI / ML • AI-Native Development</text>
+  <text x="108" y="275" fill="#91A4BD" font-family="Arial, Helvetica, sans-serif" font-size="16">Building and shipping software products from idea to implementation.</text>
+  <g transform="translate(920 92)">
+    <rect width="180" height="180" rx="28" fill="#0A1020" opacity="0.85" stroke="#2A3658"/>
+    <circle cx="90" cy="74" r="28" fill="#131B35" stroke="#5C6CBA"/>
+    <path d="M76 74L86 84L106 62" stroke="#22D3EE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="90" y="126" text-anchor="middle" fill="#E8EEF9" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">BUILD · SHIP · ITERATE</text>
+    <text x="90" y="150" text-anchor="middle" fill="#7184A3" font-family="Arial, Helvetica, sans-serif" font-size="12">with modern AI workflows</text>
+  </g>
+</svg>
